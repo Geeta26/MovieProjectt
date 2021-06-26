@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+     <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+    <title>Home Page</title>
+</head>
+<body>
+<div class="container" align="center">
+    <div class="jumbotron">
+        <h1>UMAVI Movies...</h1>
+        <p>Up to date movies information</p>
+              <a class="btn btn-primary btn-lg" href="/addmovie" role="button">Add Movies</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+               <a class="btn btn-primary btn-lg" href="/listmovie" role="button">list Movies</a>
+    </div>
+</div>
+</body>
+</html>
